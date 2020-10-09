@@ -1,12 +1,9 @@
 <html>
   <head>
-    <title>Triangle Tracker</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <title>Find Tiangle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
     <div class="container">
@@ -16,58 +13,34 @@
           <p>The Triangle tracker is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.The application takes the value that are inputed and thus tells whether the the values are for a given triangle or not.Equilateral triangle has all sides equal .</p>
         </div>
         <div class="col-md-6">
-          <h2> Form Control</h2>
+          <h2>Form-control</h2>
           <div class="container">
-            <h2>Enter your values here!</h2>
+            <h2>Enter the triangles sides!</h2>
             <form name="myForm" class="form">
               <div class="form-group">
-                <label for="number"> Value1:</label>
-                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+                <label for="number">side 1:</label>
+                <input type="number"  class="form-control" id="side_a" placeholder="side 1" name="side"/>
               </div>
               <div class="form-group">
-                <label for="number">Value2:</label>
-                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+                <label for="month">side 2:</label>
+                <input type="number"class="form-control"
+                  id="side_b"
+                  placeholder="side 2"
+                  name="month"
+                />
               </div>
               <div class="form-group">
-                <label for="value">Value3:</label>
-                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+                <label for="date">side 3:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="side_c"
+                  placeholder="side 3"
+                  name="side"
+                />
               </div>
-              <div class="form-group">
-                <label for="value">Triangle</label><br />
-                <div class="form-check-block">
-                  <label class="form-check-label">
-                    <input
-                      type="radio"
-                      class="form-check-input"
-                      name="triangle"
-                      id="all  equal"
-                    />&nbsp; All  equal
-                  </label>
-                </div>
-                <div class="form-check-block">
-                  <label class="form-check-label">
-                    <input
-                      type="radio"
-                      class="form-check-input"
-                      name="traingle"
-                      id="two  equal"
-                    />&nbsp; Two  equal
-                  </label>
-                </div>
-              </div>
-              <div class="form-check-block">
-                <label class="form-check-label">
-                  <input
-                    type="radio"
-                    class="form-check-input"
-                    name="traingle"
-                    id="none equal"
-                  />&nbsp; None  equal
-                  </label>
-                  </div>
-                </div>
-              <button type="submit" class="btn btn-primary" onclick="getTriangle()">
-                Get Triangle
+              <button type="submit" class="btn btn-primary" onclick="FindTriangle()">
+                Find Triangle
               </button>
               <br />
             </form>
@@ -77,5 +50,5 @@
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
+  <script src="js.js"></script>
 </html>
