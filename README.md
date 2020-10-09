@@ -2,7 +2,7 @@
 
 ## Author
 
-[Felistus Chemutai](https://github.com/Felistus-Chemutai)
+[Felistus Chemutai](https://github.com/Felistus-Chemutai/Triangle-Tracker.git)
 
 ## Description
 
