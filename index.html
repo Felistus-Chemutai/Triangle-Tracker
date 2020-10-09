@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Triangle Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Triangle Tracker</h1>
+          <p>The Triangle tracker is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.The application takes the value that are inputed and thus tells whether the the values are for a given triangle or not.Equilateral triangle has all sides equal .</p>
+        </div>
+        <div class="col-md-6">
+          <h2> Form Control</h2>
+          <div class="container">
+            <h2>Enter your values here!</h2>
+            <form name="myForm" class="form">
+              <div class="form-group">
+                <label for="number"> Value1:</label>
+                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+              </div>
+              <div class="form-group">
+                <label for="number">Value2:</label>
+                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+              </div>
+              <div class="form-group">
+                <label for="value">Value3:</label>
+                <input type="number" class="form-control" id="value" placeholder="Value" name="value"/>
+              </div>
+              <div class="form-group">
+                <label for="value">Triangle</label><br />
+                <div class="form-check-block">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="triangle"
+                      id="all  equal"
+                    />&nbsp; All  equal
+                  </label>
+                </div>
+                <div class="form-check-block">
+                  <label class="form-check-label">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="traingle"
+                      id="two  equal"
+                    />&nbsp; Two  equal
+                  </label>
+                </div>
+              </div>
+              <div class="form-check-block">
+                <label class="form-check-label">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    name="traingle"
+                    id="none equal"
+                  />&nbsp; None  equal
+                  </label>
+                  </div>
+                </div>
+              <button type="submit" class="btn btn-primary" onclick="getTriangle()">
+                Get Triangle
+              </button>
+              <br />
+            </form>
+            <p id="results"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
