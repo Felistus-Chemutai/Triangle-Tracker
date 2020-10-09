@@ -1,4 +1,4 @@
-var a, b, c
+var a, b, c;
 let FindTriangle = () => {
  a = parseInt( document.getElementById('side_a').value)
  b = parseInt(document.getElementById('side_b').value)
