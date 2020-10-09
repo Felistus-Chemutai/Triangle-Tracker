@@ -3,6 +3,9 @@ let FindTriangle = () => {
  a = parseInt( document.getElementById('side_a').value);
  b = parseInt(document.getElementById('side_b').value);
  c = parseInt(document.getElementById('side_c').value);
+
+function(event){
+  event.preventDefault()}
  
 if (((a + b) > c) && ((a + c) > b) &&((b + c) > a)) {
   if ((a === b && a !== c) || (a === c && a !== b) || (b === c && b !== a)) {
@@ -19,5 +22,3 @@ if (((a + b) > c) && ((a + c) > b) &&((b + c) > a)) {
    alert("This is not a triangle");
  };
 }
-function(event){
-  event.preventDefault()}
