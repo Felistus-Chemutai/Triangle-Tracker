@@ -22,6 +22,7 @@ The Triangle tracker is an application that will help us know whether a triangle
 * HTML5
 * CSS
 * JavaScript
+* mardown
 * Bootstrap
 
 ## BDD
