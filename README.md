@@ -5,8 +5,8 @@
 [Felistus Chemutai](https://github.com/Felistus-Chemutai/Triangle-Tracker.git)
 
 ## Description
+The Triangle tracker is an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.The application takes the value that are inputed and thus tells whether the the values are for a given triangle or not.
 
-This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
