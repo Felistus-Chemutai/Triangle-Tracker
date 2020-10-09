@@ -11,7 +11,7 @@ The Triangle tracker is an application that will help us know whether a triangle
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://github.com/Felistus-Chemutai/Akan-Name.git```
+* git clone ```https://github.com/Felistus-Chemutai/Triangle-Tracker.git```
 
 * cd Akan-Names
 
