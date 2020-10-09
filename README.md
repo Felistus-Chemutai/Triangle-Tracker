@@ -1,4 +1,4 @@
-# Akan-Name
+# Triangle Tracker
 
 ## Author
 
