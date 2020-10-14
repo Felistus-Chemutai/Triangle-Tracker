@@ -8,7 +8,7 @@ if (((a + b) > c) && ((a + c) > b) &&((b + c) > a)) {
   if ((a === b && a !== c) || (a === c && a !== b) || (b === c && b !== a)) {
       alert("This is an Isosceles Triangle")
    }
-  else if ((a === b) && (b === c) (a===c)) {
+  else if ((a === b) && (b === c) && (a===c)) {
      alert("This is an Equilateral Triangle");
    }
   else {
